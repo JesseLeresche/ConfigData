@@ -1,0 +1,13 @@
+endpoints:
+  sensitive: false
+  actuator:
+    enabled: true
+management:
+  security:
+      enabled: false
+
+info:
+  app:
+    java:
+      source: 1.8
+      target: 1.8
