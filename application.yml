@@ -18,4 +18,27 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
+---
+spring:
+  profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profile: article
+words: a,the
+
+---
+spring:
+  profile: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+spring:
+  profile: subject
+words: I,You,He,She,It
+
+---
+spring:
+  profile: verb
+words: ran,knew,had,saw,bought
